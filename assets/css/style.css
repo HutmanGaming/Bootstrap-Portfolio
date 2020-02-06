@@ -6,6 +6,7 @@
 
 #body {
     background-image: url("../images/background.jpg");
+    text-align: Left;
 }
 
 #header {
@@ -34,15 +35,18 @@ div.header {
 }
 div.body {
     margin: auto;
-    padding: 100px;
+    padding: 70px;
     color: #3d3d3d;
     background: #ffffff;
     width: 960px;
     word-wrap: break-word;
+    text-align:Left;
+    font-size: 18px;
 }
 #image {
     float: Left;
     width: 100%;
+    align: Left;
 }
 #bodyhead {
     float: Left;
@@ -82,3 +86,9 @@ div.body {
 #lefttext {
     text-align: Left;
 }
+@media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    #header, #body, #image {
+      width:100%;
+    }
+  }
