@@ -68,3 +68,22 @@ div.body {
     Padding: 20px;
 
 }
+#head p:hover {
+    background-color: #4aaaa5;
+    color: black;
+  }
+  
+#head p.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .container{
+    flex: 1 0 12em;
+    /* Change 12em to your breakpoint. */
+  }
