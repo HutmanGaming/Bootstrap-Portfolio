@@ -42,6 +42,7 @@ div.body {
 }
 #image {
     float: Left;
+    width: 100%;
 }
 #bodyhead {
     float: Left;
@@ -65,7 +66,8 @@ div.body {
 }
 #pimage {
     Float: Left;
-    Padding: 20px;
+    Padding: 50px;
+    width: 20%;
 
 }
 #head p:hover {
@@ -77,13 +79,6 @@ div.body {
     background-color: #4CAF50;
     color: white;
   }
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-  }
-  
-  .container{
-    flex: 1 0 12em;
-    /* Change 12em to your breakpoint. */
-  }
+#lefttext {
+    text-align: Left;
+}
